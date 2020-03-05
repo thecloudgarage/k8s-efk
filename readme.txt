@@ -10,3 +10,5 @@ Back in “Discover” on the Kibana dashboard, add the following filter:
 Field: kubernetes.pod_name
 Operator: is
 Value: name-of-the-deployment
+
+FOR PKS, apply the files with pks keywords for FLUENTD only. The PKS directories are slightly different and the image used for fluentd is different
